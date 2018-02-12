@@ -20,6 +20,7 @@ The pieces include:
 * `db.js` for storing a student's page state (at their own institution).
 * `lrs.js` for logging events (at their own institution and with the page author) and grade data.
 * `cafs.js` for publishing content which updates when instructors make changes.
+* `interactive.js` for managing reuseable javascript widgets.
 
 These pieces are designed so that, regardless of where db.js is served
 from, the web page can reach out to the student's institution to store
