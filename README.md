@@ -16,11 +16,11 @@ in terms of accessibility.
 
 The pieces include:
 
-* `id.js` for determining student identities.
-* `db.js` for storing a student's page state (at their own institution).
+* [`id.js`](./identity.md) for determining student [identities](./identity.md).
+* [`db.js`](./page-state.md) for storing a student's [page state](./page-state.md) (locally or at their own institution).
 * `lrs.js` for logging events (at their own institution and with the page author) and grade data.
 * `cafs.js` for publishing content which updates when instructors make changes.
-* `interactive.js` for managing reuseable javascript widgets.
+* [`interactive.js`](./interactive.md) for managing reuseable [javascript widgets](./interactive.md).
 
 These pieces are designed so that, regardless of where db.js is served
 from, the web page can reach out to the student's institution to store
